@@ -15,7 +15,27 @@ const randomMessage = () => {
 		'Feliz Natal',
 		'Kala Christ oumeni',
 		'Nollaig Shona Dhuit',
-		'Nolla illaana'
+		'Nolla illaana',
+		'Nollaig Shona',
+		'Nollaig Chridheil',
+		'Nollaig Shona Daoibh',
+		'Un simple mensaje de Navidad',
+		'Feliz Navidad y próspero año nuevo',
+		'Que fastidio ponerse a pensar en un mensaje de Navidad',
+		'Oa',
+		'Merry Xmas',
+		'Sabias que en la Navidad se comen 2.000 millones de polvorones',
+		'Sabias que en la Navidad se comen 2.000 millones de turrones',
+		'Sabias que en la Navidad se comen 2.000 millones de mazapanes',
+		'Un mensaje de Navidad para ti',
+		'Algunos dicen que la Navidad es una época de paz, amor y alegría. Otros dicen que es una época de compras, compras y compras',
+		'Ya es navidad?',
+		'Ya huele a navidad?',
+		'Ya se escucha navidad?',
+		'Ya se siente navidad?',
+		'Ya se ve navidad?',
+		'Happy HO HO HO',
+		'Happy HO HO HO to you'
 	];
 	return messages[Math.floor(Math.random() * messages.length)];
 };
