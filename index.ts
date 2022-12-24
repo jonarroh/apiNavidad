@@ -35,7 +35,10 @@ const randomMessage = () => {
 		'Ya se siente navidad?',
 		'Ya se ve navidad?',
 		'Happy HO HO HO',
-		'Happy HO HO HO to you'
+		'Happy HO HO HO to you',
+		'Viviendo entre frio y cobijas',
+		'Felices Fiestas!',
+		'Feliz Crisis-mas'
 	];
 	return messages[Math.floor(Math.random() * messages.length)];
 };
